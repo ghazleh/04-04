@@ -1,0 +1,31 @@
+/* Sample CSS redesign file for PRTG Network Monitor, works with V13.2.3.x or later */
+    /* Created May 2013 by Dirk Paessler */
+    /* This styling is not meant to look pretty, 
+        it serves as sample code on how to change the style */
+
+    /* How to use:
+    - Create file "styles_custom.css" in the \prtg network monitor\webroot\css folder
+    - insert the code below and edit as desired
+    - reload your browser */
+
+body  /*change base font and size */
+{
+  font-family:"Times New Roman",times,serif;
+  font-size: 10px;
+}
+
+#main /* Change background color */
+{
+  background:#666;
+}
+
+#header_menu /*change top header background color*/
+{
+  background:#eee;
+}
+
+#header_breadcrumbs /*change top header background color*/
+{
+background:#000;
+color: #333;
+}
